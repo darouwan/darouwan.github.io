@@ -10,7 +10,7 @@
 (function ($) {
     $(document).ready(function () {
 
-        $(".banner-image").backstretch('images/banner.jpg');
+        $(".banner-image").backstretch('images/banner' + parseInt(Math.random() * (7 + 1)) + '.jpg');
 
         // Fixed header
         //-----------------------------------------------
