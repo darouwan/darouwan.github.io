@@ -12,6 +12,7 @@
 
         $(".banner-image").backstretch('images/banner' + parseInt(Math.random() * (7 + 1)) + '.jpg');
 
+
         // Fixed header
         //-----------------------------------------------
         $(window).scroll(function () {
