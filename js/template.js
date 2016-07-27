@@ -9,8 +9,16 @@
 
 (function ($) {
     $(document).ready(function () {
-
-        $(".banner-image").backstretch('images/banner' + parseInt(Math.random() * (7 + 1)) + '.jpg');
+        var banners = new Array(
+            "http://chevereto.steampic.org/images/U0ne4.jpg",
+            "http://chevereto.steampic.org/images/U0hR7.jpg",
+            "http://chevereto.steampic.org/images/U0YZ0.jpg",
+            "http://chevereto.steampic.org/images/U02Yf.jpg",
+            "http://chevereto.steampic.org/images/U0u7N.jpg",
+            "http://chevereto.steampic.org/images/U0TSv.jpg",
+            "http://chevereto.steampic.org/images/U0MLA.jpg",
+            "http://chevereto.steampic.org/images/U0edo.jpg");
+        $(".banner-image").backstretch(banners[parseInt(Math.random() * (7 + 1))]);
 
 
         // Fixed header
