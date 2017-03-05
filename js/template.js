@@ -10,14 +10,14 @@
 (function ($) {
     $(document).ready(function () {
         var banners = new Array(
-            "http://chevereto.steampic.org/images/U0ne4.jpg",
-            "http://chevereto.steampic.org/images/U0hR7.jpg",
-            "http://chevereto.steampic.org/images/U0YZ0.jpg",
-            "http://chevereto.steampic.org/images/U02Yf.jpg",
-            "http://chevereto.steampic.org/images/U0u7N.jpg",
-            "http://chevereto.steampic.org/images/U0TSv.jpg",
-            "http://chevereto.steampic.org/images/U0MLA.jpg",
-            "http://chevereto.steampic.org/images/U0edo.jpg");
+            "http://p1.bpimg.com/567571/ffff05aa7207e9a6.jpg",
+            "http://i1.piimg.com/567571/4e121bdf51e991eb.jpg",
+            "http://p1.bpimg.com/567571/24fb54eca272f0e5.jpg",
+            "http://p1.bqimg.com/567571/b0be8ac3780b04b2.jpg",
+            "http://i1.piimg.com/567571/50e87ef87bedb7c2.jpg",
+            "http://i1.piimg.com/567571/7ec0cc25dacdf28a.jpg",
+            "http://i1.piimg.com/567571/c2928762563bb6ce.jpg",
+            "http://p1.bpimg.com/567571/84b06fabd2e3c017.jpg");
         $(".banner-image").backstretch(banners[parseInt(Math.random() * (7 + 1))]);
 
 
